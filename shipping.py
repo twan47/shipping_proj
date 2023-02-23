@@ -23,5 +23,5 @@ elif weight > 2 and weight <= 6:
 elif weight > 6 and weight <= 10:
     drone_shipping = weight * 12.00
 else:
-    drone_shipping = 14.25
+    drone_shipping = weight * 14.25
 print(drone_shipping)
